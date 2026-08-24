@@ -1,6 +1,6 @@
-# PaletteArtist Legal
+# ArtistLab Legal
 
-Public legal pages for PaletteArtist.
+Public legal pages for ArtistLab.
 
 This repository contains only static legal documents used by the app:
 
@@ -8,4 +8,4 @@ This repository contains only static legal documents used by the app:
 - Terms of Use
 - Third-Party Notices
 
-It does not contain PaletteArtist app source code, product roadmap, assets, or private implementation details.
+It does not contain ArtistLab app source code, product roadmap, assets, or private implementation details.
