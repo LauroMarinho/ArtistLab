@@ -3,56 +3,161 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ArtistLab Legal</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      line-height: 1.58;
-      color: #171612;
-      background: #f6efe7;
-    }
-    main {
-      max-width: 760px;
-      margin: 0 auto;
-      padding: 48px 22px 64px;
-    }
-    h1 {
-      line-height: 1.15;
-      font-size: 2.2rem;
-      margin-bottom: 0.3rem;
-    }
-    p {
-      color: #6f675d;
-    }
-    nav {
-      display: grid;
-      gap: 12px;
-      margin-top: 2rem;
-    }
-    a {
-      display: block;
-      padding: 16px;
-      color: #171612;
-      text-decoration: none;
-      font-weight: 650;
-      background: #fbf6ef;
-      border: 1px solid #d2c7b8;
-      border-radius: 8px;
-    }
-  </style>
+  <meta name="description" content="Artist Lab transforma fotos de referencia em estudos de cor para artistas, com paletas, Color Lab, Paint Lab e exportacoes criadas no dispositivo.">
+  <meta property="og:title" content="Artist Lab - Estudos de cor para artistas">
+  <meta property="og:description" content="Importe uma foto, extraia uma paleta, estude harmonias e teste a aparencia das cores sobre diferentes fundos.">
+  <meta property="og:type" content="website">
+  <title>Artist Lab - Estudos de cor para artistas</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main>
-    <h1>ArtistLab Legal</h1>
-    <p>Documentos de privacidade, termos e avisos usados pelo MVP do ArtistLab.</p>
-
-    <nav aria-label="Documentos legais">
-      <a href="privacy.html">Política de Privacidade</a>
-      <a href="support">Suporte</a>
-      <a href="terms.html">Termos de Uso</a>
-      <a href="third-party-notices.html">Avisos de Terceiros</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Artist Lab home">
+      <img class="brand-icon" src="assets/app-icon.jpg" alt="" width="32" height="32">
+      <span>Artist Lab</span>
+    </a>
+    <nav class="top-nav" aria-label="Navegacao principal">
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#labs">Labs</a>
+      <a href="#download">Download</a>
+      <a href="privacy.html">Privacidade</a>
     </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="app-lockup">
+          <img src="assets/app-icon.jpg" alt="" width="82" height="82">
+          <div>
+            <p class="eyebrow">App iOS para artistas</p>
+            <h1>Artist Lab</h1>
+          </div>
+        </div>
+        <p class="hero-title">Estudos de cor para pintar.</p>
+        <p class="lead">Paletas, harmonias e testes de pintura a partir das suas fotos de referencia.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#download">Baixar quando estiver disponivel</a>
+          <a class="button secondary" href="#screenshots">Ver telas do app</a>
+        </div>
+        <ul class="trust-list" aria-label="Diferenciais principais">
+          <li>Processamento local/offline</li>
+          <li>Paleta viva a partir da foto</li>
+          <li>Color Lab e Paint Lab integrados</li>
+        </ul>
+      </div>
+
+      <div class="hero-visual" aria-label="Previa visual do Artist Lab">
+        <figure class="phone-frame main-shot">
+          <img src="assets/screenshots/artist-lab-extrair.jpg" alt="Tela Extrair do Artist Lab mostrando uma foto de rosas, pontos de amostragem e a paleta extraida.">
+        </figure>
+      </div>
+    </section>
+
+    <section class="section band" id="como-funciona">
+      <div class="section-heading">
+        <p class="eyebrow">Fluxo criativo</p>
+        <h2>Da referencia ao estudo visual em poucos passos.</h2>
+      </div>
+      <div class="steps">
+        <article>
+          <span class="step-number">01</span>
+          <h3>Importe uma foto</h3>
+          <p>Escolha uma imagem de referencia e trabalhe a partir dela, mantendo a foto original como fonte do estudo.</p>
+        </article>
+        <article>
+          <span class="step-number">02</span>
+          <h3>Extraia e ajuste a paleta</h3>
+          <p>Use extracao automatica ou amostragem manual, depois ajuste luz, contraste, temperatura, matiz, realces, sombras, vibracao e clareza.</p>
+        </article>
+        <article>
+          <span class="step-number">03</span>
+          <h3>Estude antes de pintar</h3>
+          <p>Abra Color Lab e Paint Lab para comparar harmonias, distribuicao, misturas visuais e comportamento sobre imprimaturas.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="labs">
+      <div class="feature-grid">
+        <div class="feature-copy">
+          <p class="eyebrow">Color Lab</p>
+          <h2>Entenda a paleta, nao apenas copie cores.</h2>
+          <p>O Color Lab posiciona as cores da imagem na roda cromatica, destaca relacoes de harmonia, mostra distribuicao aproximada e permite estudar variacoes sem transformar experimentos em uma nova fonte da verdade.</p>
+          <ul class="check-list">
+            <li>Roda cromatica conectada a foto e a paleta ativa</li>
+            <li>Harmonias com cores do projeto ou cores livres locais</li>
+            <li>Comparacao antes/depois com ajustes nao destrutivos</li>
+          </ul>
+        </div>
+        <figure class="phone-frame tall-shot" id="screenshots">
+          <img src="assets/screenshots/artist-lab-color-lab.jpg" alt="Color Lab do Artist Lab com foto no centro da roda cromatica, swatches e distribuicao de cores.">
+        </figure>
+      </div>
+    </section>
+
+    <section class="section split-band">
+      <figure class="phone-frame wide-shot">
+        <img src="assets/screenshots/artist-lab-paint-lab.jpg" alt="Paint Lab do Artist Lab mostrando cor da tela, textura, espessura da tinta e pincelada sobre fundo verde.">
+      </figure>
+      <div class="feature-copy">
+        <p class="eyebrow">Paint Lab</p>
+        <h2>Veja como a cor pode mudar sobre o fundo.</h2>
+        <p>Teste a aparencia visual de uma cor sobre tela branca, cinzas, terras, imprimaturas quentes ou cores livres. As simulacoes sao pedagogicas: ajudam a prever tendencia, luminosidade e contraste antes de colocar tinta real na tela.</p>
+        <ul class="check-list">
+          <li>Controle de cobertura e opacidade</li>
+          <li>Comparacao da cor original contra a cor sobre o fundo</li>
+          <li>Misturas visuais aproximadas para estudo rapido</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section compact">
+      <div class="section-heading">
+        <p class="eyebrow">Feito para atelie</p>
+        <h2>Privado por desenho, pratico por necessidade.</h2>
+      </div>
+      <div class="principles">
+        <article>
+          <h3>Offline-first</h3>
+          <p>Fotos, paletas, ajustes, nomes de cores e laboratorios rodam no dispositivo durante o MVP.</p>
+        </article>
+        <article>
+          <h3>Fonte unica de verdade</h3>
+          <p>A foto original, os ajustes nao destrutivos e as cores base permanecem canonicos; previews e experimentos sao derivados.</p>
+        </article>
+        <article>
+          <h3>Exportacao para estudo</h3>
+          <p>Gere arquivos de paleta, foto editada, Color Lab ou Paint Lab para levar o estudo para o processo de pintura.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="download-section" id="download">
+      <div>
+        <p class="eyebrow">Download</p>
+        <h2>Artist Lab para iPhone.</h2>
+        <p>O link da App Store entra aqui quando a pagina publica estiver ativa. Ate la, esta area fica pronta para receber o badge oficial e o URL final.</p>
+      </div>
+      <div class="download-actions">
+        <a class="store-placeholder" href="#download" aria-disabled="true" aria-label="Placeholder do link da App Store">Placeholder: link da App Store</a>
+        <a class="button secondary" href="support.html">Falar com suporte</a>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>Artist Lab</strong>
+      <p>Estudos de cor para artistas, criados a partir das suas referencias.</p>
+    </div>
+    <nav aria-label="Links institucionais">
+      <a href="privacy.html">Privacidade</a>
+      <a href="terms.html">Termos</a>
+      <a href="support.html">Suporte</a>
+      <a href="third-party-notices.html">Terceiros</a>
+      <a href="https://lauromarinho.github.io">Portfolio Lauro Marinho</a>
+    </nav>
+  </footer>
 </body>
 </html>

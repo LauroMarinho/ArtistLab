@@ -1,11 +1,13 @@
-# ArtistLab Legal
+# Artist Lab Public Site
 
-Public legal pages for ArtistLab.
+Public static site for Artist Lab.
 
-This repository contains only static legal documents used by the app:
+This repository hosts the product home page and the static legal/support documents used by the app:
 
+- Product home page
 - Privacy Policy
 - Terms of Use
+- Support
 - Third-Party Notices
 
-It does not contain ArtistLab app source code, product roadmap, assets, or private implementation details.
+It does not contain Artist Lab app source code, product roadmap, private screenshots, or private implementation details.
