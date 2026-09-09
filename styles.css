@@ -631,3 +631,21 @@ p {
     font-size: 0.98rem;
   }
 }
+
+.language-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.legal-page .language-nav {
+  margin: 20px 0;
+}
+
+.language-nav a[aria-current="page"] {
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
